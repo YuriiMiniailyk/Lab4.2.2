@@ -18,3 +18,4 @@ def IsPowerOf5(n):
 def IsPowerOf2(n):
     if math.log(n,2) == int(math.log(n,2)): return True
     else: return False
+
