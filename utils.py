@@ -10,3 +10,7 @@ def factorial(n):
     if n==1 or n==0: return 1
     else:
         return n*factorial(n-1)
+
+def IsPowerOf5(n):
+    if math.log(n,5) == int(math.log(n,5)): return True
+    else: return False
